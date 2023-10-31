@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #084f36;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    border-radius: 3pc;
+    margin-left: 20px;
+}
+.header-link{
+    text-decoration: none;
+    color: inherit;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: kenia;
+}
+
+.social-media{
+    position: absolute;
+    right: 80px;
+    cursor: pointer;
+}
+@media screen and (max-width:900px), screen and (max-height:500px){
+
+    .social-media {display: none;}
+
+}
+.twitter{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3{
+    background-color: white;
+    width: 27px;
+    height: 3px;
+    margin: 2px 0;
+    transition: 0.4s;
+}
+.change .bar1{
+    transform: translate(0 ,5px) rotate(-50deg);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: translate(0, -5px) rotate(50deg);
+}
+
+.body{
+    background-color: black;
+    width: 100%;
+    height: 100vmax;
+    color: aliceblue;
+}
