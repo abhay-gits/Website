@@ -3,29 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <img class="logo" src="../Logo/Website Logo.png" width="60px" alt="Website Logo">
-            <a class="header-link" href="index.html"> <h1 class="heading">Abhay's Portfolio</h1></a>
-            <div class="social-media">
-                <a href="https://github.com/abhay-gits" target="_blank"><img src="../Logo/github.png" alt="github" width="25px"></a>
-                <a href="https://twitter.com/login" target="_blank"><img class="twitter" src="../Logo/twitter.png" alt="twitter" width="25px"></a>
-                <a href="https://github.com/abhay-gits" target="_blank"><img src="../Logo/linkedin.png" alt="linkedin" width="25px"></a>
+    <div class="cursor"></div>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="../Images/logo.png">
+                <span>Abhay's Portfolio</span>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
             </div>
-            <div class="menu" onclick="myFunction(this)">
-                <div class=" bar bar1"></div>
-                <div class=" bar bar2"></div>
-                <div class=" bar bar3"></div>
+            <div>
+                <div class="header-text">
+                    <h1>
+                        Hi, I'm <span>Abhay</span><br> a Student         
+                    </h1>
+                    <!-- <p>Welcome, to my Website</p> -->
+                </div>
+                <div class="header-logo">
+                    <img src="../Images/logo.png">
+                </div>
+            </div>
+    </div>
+    <div class="about-section">
+        <h1>---About me---</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus quas doloremque quisquam id iste labore, iure dolores deleniti officia fugiat quae at assumenda necessitatibus soluta animi. Voluptatibus, atque voluptatum.
+           ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus quas doloremque quisquam id iste labore, iure dolores deleniti officia fugiat quae at assumenda necessitatibus soluta animi. Voluptatibus, atque voluptatum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus quas doloremque quisquam id iste labore, iure dolores deleniti officia fugiat quae at assumenda necessitatibus soluta animi. Voluptatibus, atque voluptatum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus quas doloremque quisquam id iste labore, iure dolores deleniti officia fugiat quae at assumenda necessitatibus soluta animi. Voluptatibus, atque voluptatum.
+        </p>
+    </div>
+    <div class="skill-section">
+        <div class="skill-heading">
+            <h1>---Skills---</h1>
+        </div>
+        <div class="skills-col">
+            <div class="skill">
+                <img src="../Images/html.webp" width="60px">
+                <h1>Html</h1>
+            </div>
+            <div class="skill">
+                <img src="../Images/css.png" width="60px">
+                <h1>Css</h1>
+            </div>
+            <div class="skill">
+                <img src="../Images/js.png" width="60px">
+                <h1>Javascript</h1>
+            </div>
+            <div class="skill">
+                <img src="../Images/node js.png" width="60px">
+                <h1>Node js</h1>
             </div>
         </div>
-        <div class="body">
-           
+        <div class="skills-col">
+            <div class="skill">
+                <img src="../Images/express.png" width="60px">
+                <h1>Express</h1>
+            </div>
+            <div class="skill">
+                <img src="../Images/tailwind.svg" width="60px">
+                <h1>Tailwind</h1>
+            </div>
+            <div class="skill">
+                <img src="../Images/mongo.png" width="60px">
+                <h1>Mongo DB</h1>
+            </div>
+            <div class="skill">
+                <img src="../Images/git.png" width="60px">
+                <h1>Git</h1>
+            </div>
         </div>
     </div>
-<script src="script.js"></script>    
+    <script src="script.js"></script>
 </body>
 </html>
