@@ -135,6 +135,53 @@ nav ul li{
 }
 
 
-/* Cursor glow effect */
+/* RESPONSIVE WEBSITE CODE */
+
+@media screen and (max-width: 768px){
+    nav img{
+        margin-top: 20px;
+        margin-left: 12px;
+    }
+
+    .container span{
+        font-size: 40px;
+        margin-top: 10px;
+        margin-left: 1%;
+    }
+
+    nav ul{
+        visibility: hidden;
+        display: none;
+    }
+
+    .header-text{
+        font-size: 30px;
+        margin-top: 60px;
+        margin-left: 14%;
+    }
+    .header-logo img{
+        width: 80%;
+        border-radius: 500px;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        top: 350px;
+    }
+
+    .about-section h1{
+        text-align: center;
+        margin-top: 370px;
+        font-size: 50px;
+        color: #0D7D56;
+    }
+
+    .skills-col{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
 
