@@ -3,84 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
 </head>
 <body>
-    <div class="header">
-        <div class="container">
+    <div class="container">
+        <!-- header -->        
+        <div class="list header">
             <nav>
-                <img src="../Images/logo.png">
-                <span>Abhay's Portfolio</span>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                </ul>
+            <img src="../images/logo.png">
+            <span>Abhay's Portfolio</span>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
             </nav>
+        </div>
+        <!-- intro -->
+        <div class="list intro">
+                <h1>Hi I am <span>Abhay</span><br>a Student</h1>
+            <div class="intro-image">
+                <img src="../images/logo.png">
             </div>
-            <div>
-                <div class="header-text">
-                    <h1>
-                        Hi, I'm <span>Abhay</span><br> a Student         
-                    </h1>
-                    <!-- <p>Welcome, to my Website</p> -->
+        </div>
+        <!-- description -->
+        <div class="list description">
+            <h1>--About me--</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, atque amet. Placeat debitis, velit vitae sed laudantium ipsum consequatur quis incidunt ab eveniet laboriosam dolores dolorum, neque quia. Temporibus provident, exercitationem accusantium dignissimos magni cumque eveniet excepturi nisi sint error beatae iusto enim veritatis distinctio accusamus magnam eum ullam qui.</p>
+        </div>
+        <!-- skills -->
+        <div class=" list skills">
+            <h1>--Skills--</h1>
+            <div class="skill-set">
+                <div class="skill">
+                    <img src="../images/html.webp" width="70px">
                 </div>
-                <div class="header-logo">
-                    <img src="../Images/logo.png">
+                <div class="skill">
+                    <img src="../images/css.png" width="70px">
+                </div>
+                <div class="skill">
+                    <img src="../images/tailwind.svg" width="70px">
+                </div>
+                <div class="skill">
+                    <img src="../images/js.png" width="70px">
+                </div>
+                <div class="skill">
+                    <img src="../images/node js.png" width="70px">
+                </div>
+                <div class="skill">
+                    <img src="../images/react.png" width="70px">
+                </div>
+                <div class="skill">
+                    <img src="../images/express.png" width="70px">
+                </div>
+                <div class="skill">
+                    <img src="../images/mongo.png" width="70px">
+                </div>
+                <div class="skill">
+                    <img src="../images/git.png" width="70px">
+                </div>
+                <div class="skill">
+                    <img src="../images/github.png" width="70px">
                 </div>
             </div>
-    </div>
-    <div class="about-section">
-        <h1>---About me---</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus quas doloremque quisquam id iste labore, iure dolores deleniti officia fugiat quae at assumenda necessitatibus soluta animi. Voluptatibus, atque voluptatum.
-           ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus quas doloremque quisquam id iste labore, iure dolores deleniti officia fugiat quae at assumenda necessitatibus soluta animi. Voluptatibus, atque voluptatum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus quas doloremque quisquam id iste labore, iure dolores deleniti officia fugiat quae at assumenda necessitatibus soluta animi. Voluptatibus, atque voluptatum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus quas doloremque quisquam id iste labore, iure dolores deleniti officia fugiat quae at assumenda necessitatibus soluta animi. Voluptatibus, atque voluptatum.
-        </p>
-    </div>
-    <div class="skill-section">
-        <div class="skill-heading">
-            <h1>---Skills---</h1>
         </div>
-        <div class="skills-col">
-            <div class="skill">
-                <img src="../Images/html.webp" width="60px">
-                <h1>Html</h1>
+        <!-- footer -->
+        <div class="list footer">
+            <div class="contact">
+                <form>
+                    <span>Contact Form</span>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Enter Message..." required>
+                    <button>Submit</button>
+                </form>
             </div>
-            <div class="skill">
-                <img src="../Images/css.png" width="60px">
-                <h1>Css</h1>
-            </div>
-            <div class="skill">
-                <img src="../Images/js.png" width="60px">
-                <h1>Javascript</h1>
-            </div>
-            <div class="skill">
-                <img src="../Images/node js.png" width="60px">
-                <h1>Node js</h1>
+            <!-- footer social media -->
+            <div class="social-media">
+                <span>Social Media</span>
+                <a href="#">Twitter</a>
+                <a href="#">GitHub</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
             </div>
         </div>
-        <div class="skills-col">
-            <div class="skill">
-                <img src="../Images/express.png" width="60px">
-                <h1>Express</h1>
-            </div>
-            <div class="skill">
-                <img src="../Images/tailwind.svg" width="60px">
-                <h1>Tailwind</h1>
-            </div>
-            <div class="skill">
-                <img src="../Images/mongo.png" width="60px">
-                <h1>Mongo DB</h1>
-            </div>
-            <div class="skill">
-                <img src="../Images/git.png" width="60px">
-                <h1>Git</h1>
-            </div>
+        <!-- copyright -->
+        <div class="list copyright">
+            <span>Made by Abhay Rana</span>
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
