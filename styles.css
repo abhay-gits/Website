@@ -234,6 +234,7 @@ nav ul{
         align-items: center;
         justify-content: center;
         transition: none;
+        width: 300px;
     }
     .skill:hover{
         transform: none;
