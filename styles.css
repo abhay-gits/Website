@@ -186,6 +186,22 @@ nav ul{
     font-size: 20px;
 }
 
+#musicBtn svg{
+    width: 40px;
+    padding: 5px;
+}
+
+#musicBtn{
+    margin-left: 93vw;
+    background-color: #0D7D56;
+    position: sticky;
+    bottom: 10px;
+    width: 48px;
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 /* Mobile Layout */
 
 
@@ -260,5 +276,9 @@ nav ul{
     }
     .contact{
         margin-left: 0;
+    }
+    #musicBtn{
+        margin-left: 80vw;
+        bottom: 25px;
     }
 }
